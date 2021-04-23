@@ -1,9 +1,14 @@
 import react from 'react';
-function NameListItem()
+function NameListItem(value)
 {
     return(
 <react.Fragment>
-<li>Dilshani Thathsara</li>
+<li><img src={value.image}>/</img></li>
+<li>{value.name}</li>
+<li>city:{value.city}</li>
+<li>email:{value.email}</li>
+<li>Birthday:{value.birthday}</li>
+
 </react.Fragment>
 
     )
