@@ -1,8 +1,10 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import {FaBars,FaTimes} from 'react-icons/fa';
 import {MdFingerprint} from 'react-icons/md';
-import {Button} from './Button'
+import {Button} from './Button';
+import  './Navbar.css';
+import { IconContext } from 'react-icons/lib';
 
 
  function Navbar() {
@@ -20,11 +22,19 @@ setButton(false);
     }
 };
 
+
+useEffect(()=>{
+    showButton();
+},[]);
+
 window.addEventListener('resize',showButton);
 
 
 
     return (
+
+        <>
+        <IconContext.Provider value={{color:'#fff'}}></IconContext.Provider>
         
             <div className="navbar">
                 <div className="navbar-container container">
@@ -59,7 +69,7 @@ window.addEventListener('resize',showButton);
                     <li className="nav-btn">
                         {button ? (
                             <Link to="/sign-up" className="btn-link">
-                                <Button buttonStyle="btn--outline">SIGN UP</Button>
+                                <Button butt="btn--outline">SIGN UP</Button>
                             </Link>
                         ) : (
                             <Link to="/sign-up" className="btn-link">
@@ -72,7 +82,7 @@ window.addEventListener('resize',showButton);
             </div>
         </div>
 
-
+</>
     );
 }
 export default Navbar;
