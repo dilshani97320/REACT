@@ -1,6 +1,8 @@
 .App {
  min-height: 100vh;
- background-image:linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);;
+ /*background-image:linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);*/
+ background-image: url('./back.jpg');
+ background-size:contain;
 }
 
 .search-form{
@@ -10,14 +12,16 @@
   align-items: center;
 }
 .search-bar{
-width: 50%;
-border: none;
+width: 40%;
+border-radius: 20px;
 padding: 10px;
+border: none;
 }
 
 .search-btn{
-  background:palevioletred;
+  background:black;
   border: none;
+  border-radius: 20px;
   padding: 10px 20px;
   color: #fff;
 }
