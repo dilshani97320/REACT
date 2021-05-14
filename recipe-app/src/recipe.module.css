@@ -3,8 +3,16 @@
     box-shadow:0px 5px 20px rgb(71,71,71) ;
     margin: 20px;
     display: flex;
-    -ms-flex-direction: column;
+   flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background:black;
+    width: 350px;
+    height: auto;
+    color: blanchedalmond;
+   
      
+}
+.recipe h1{
+    text-align: center;
 }
