@@ -1,55 +1,55 @@
 export const homeObjOne = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
-    description:
-      'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
-    imgStart: '',
-    img: 'images/img1.png',
-    alt: 'Credit Card'
-  };
-  
-  export const homeObjTwo = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: '100% SECURE',
-    headline: 'Stay protected 24/7 anywhere anytime',
-    description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-    buttonLabel: 'Learn More',
-    imgStart: '',
-    img: 'images/img4.png',
-    alt: 'Vault'
-  };
-  
-  export const homeObjThree = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
-    description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
-    imgStart: 'start',
-    img: 'images/img2.png',
-    alt: 'Vault'
-  };
-  
-  export const homeObjFour = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
-    headline: 'Every transaction is stored on our secure cloud database',
-    description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-    buttonLabel: 'Sign Up Now',
-    imgStart: 'start',
-    img: 'images/img3.png',
-    alt: 'Vault'
-  };
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Buy less feel well',
+  headline: 'Interior designs is Making the Best Possible use of the Available space',
+  description:
+    'Below are fifteen home decor quotes, each chosen to express the essence of home decor, and to speak the abstract, overarching concept of designing a home',
+  buttonLabel: 'Read More',
+  imgStart: '',
+  img: 'images/1.png',
+  alt: 'Credit Card'
+};
+
+export const homeObjTwo = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: '100% SECURE',
+  headline: 'Keep Calm and Designner Handle it',
+  description:
+    'An interior designer works with clients to create aesthetically pleasing rooms and spaces. Clients range from homeowners to large corporations, and the spaces designed are equally varied, ranging from simple indoor and outdoor home environments to hotel lobbies and lavish mansions.',
+  buttonLabel: 'Learn More',
+  imgStart: '',
+  img: 'images/home.png',
+  alt: 'Vault'
+};
+
+export const homeObjThree = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'EASY SETUP',
+  headline: 'Inner Peace is the New sucess in your Home',
+  description:
+    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+  buttonLabel: 'Start Now',
+  imgStart: 'start',
+  img: 'images/pic2.png',
+  alt: 'Vault'
+};
+
+export const homeObjFour = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'UNIQUNESS',
+  headline: 'Enhance your Interior designs with beautiful unique items',
+  description:
+    'Interior designers can be independent contractors who need to build a client base, or can work for an established design firm. In either case, they need to build a positive reputation in the industry in order to secure future work',
+  buttonLabel: 'Sign Up Now',
+  imgStart: 'start',
+  img: 'images/tree.png',
+  alt: 'Vault'
+};
