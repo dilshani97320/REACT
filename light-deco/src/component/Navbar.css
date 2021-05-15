@@ -1,5 +1,5 @@
 .navbar {
-    background: #1c2237;
+    background-image:url(../coverimg/nav.jpg);
     height: 80px;
     display: flex;
     justify-content: center;

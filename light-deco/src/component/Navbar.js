@@ -1,7 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import {FaBars,FaTimes} from 'react-icons/fa';
-import {MdFingerprint} from 'react-icons/md';
+import {BiIntersect} from 'react-icons/bi';
+
 import {Button} from './Button';
 import  './Navbar.css';
 import { IconContext } from 'react-icons/lib';
@@ -39,8 +40,8 @@ window.addEventListener('resize',showButton);
             <div className="navbar">
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo"  onClick={closeMobileMenu}>
-                        <MdFingerprint className="navbar-icon"/>
-                        LAVISH
+                        <BiIntersect className="navbar-icon"/>
+                        HOMEDECO
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
 
