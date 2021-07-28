@@ -1,0 +1,50 @@
+.mainnav .navbar1 {
+  background: #C41515;
+  color: #E8E1E1;
+  font-family: 'Lobster', cursive;
+}
+
+.mainnav .navbar1 h5 {
+  font-size: 1.8rem;
+}
+
+.mainnav .navbar2 ul {
+  margin: 0 auto;
+}
+
+.mainnav .navbar2 .nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 45px 0 45px;
+}
+
+.mainnav .navbar2 .nav-link:hover {
+  color: #C41515;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .mainnav .fixed-top-sm {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .mainnav body {
+    padding-top: 44px;
+  }
+}
+
+/*home*/
+.home {
+  background: cadetblue;
+  min-height: 80vh;
+}
+
+.home .carousel-inner img {
+  min-height: 80vh;
+}
+/*# sourceMappingURL=App.css.map */

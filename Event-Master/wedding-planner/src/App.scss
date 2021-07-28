@@ -1,0 +1,60 @@
+$btn-color: #C41515;
+$icon-color:#B4ADAD;
+
+@mixin center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainnav{
+    
+    .navbar1{
+        background:$btn-color;
+        color: #E8E1E1;
+        font-family: 'Lobster', cursive;
+        
+        h5{
+            font-size: 1.8rem;
+        }
+       
+    }
+    .navbar2{
+        ul{
+            margin: 0 auto;
+        }
+  
+        .nav-link{
+              color: black;
+              font-size: 1rem;
+              font-weight: 500;
+             margin: 0 45px 0 45px;
+              &:hover{
+                color:$btn-color;
+                transform: scale(1.1);
+            }
+          }
+       }
+@media (max-width: 768px) {
+    .fixed-top-sm {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    body {
+        padding-top: 44px;
+    }
+}
+}
+
+/*home*/
+
+.home{
+    background: cadetblue;
+    min-height: 80vh;
+    .carousel-inner img{
+        min-height: 80vh;
+    }
+}
