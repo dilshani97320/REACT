@@ -14,9 +14,9 @@ class App extends Component {
       <React.Fragment>
        <Navbar/>
      <div className="container">
-          <switch>
+          <Switch>
             <Route exact path="/" component={Index}/>
-          </switch>
+          </Switch>
      </div>
   
        </React.Fragment>
