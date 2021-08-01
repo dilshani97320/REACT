@@ -1,0 +1,349 @@
+.mainnav .navbar1 {
+  background: #C41515;
+  color: #E8E1E1;
+  font-family: 'Lobster', cursive;
+}
+
+.mainnav .navbar1 h5 {
+  font-size: 1.8rem;
+}
+
+.mainnav .navbar2 ul {
+  margin: 0 auto;
+}
+
+.mainnav .navbar2 .nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 45px 0 45px;
+}
+
+.mainnav .navbar2 .nav-link:hover {
+  color: #C41515;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .mainnav .fixed-top-sm {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .mainnav body {
+    padding-top: 44px;
+  }
+}
+
+/*home*/
+.home {
+  background: rgba(0, 0, 0, 0.897);
+}
+
+.home h2 {
+  color: #B4ADAD;
+  margin-bottom: 11rem;
+  font-size: 3.3rem;
+  margin-bottom: 4rem;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.home .btn1 {
+  margin: 0 auto;
+  background: #C41515;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 35px;
+  margin-bottom: 9rem;
+  letter-spacing: 4px;
+}
+
+.home .btn1:hover {
+  background: white;
+  color: #C41515;
+  font-weight: 600;
+}
+
+/*about*/
+.about {
+  width: 100%;
+}
+
+.about h1 {
+  font-size: 3.5rem;
+}
+
+.about .about-btn {
+  background: #C41515;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 40px;
+  margin-left: 45%;
+}
+
+.about .about-btn:hover {
+  background: #292828;
+  color: #C41515;
+  font-weight: 600;
+}
+
+.about .profile-card-6 {
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .profile-card-6 .container-card {
+  margin-left: -12px;
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.815)), to(transparent));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.815), transparent);
+}
+
+.about .profile-card-6 img {
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  width: 350px;
+  height: 400px;
+  margin-left: -12px;
+}
+
+.about .profile-card-6 h3 {
+  position: absolute;
+  top: 20px;
+  left: 110px;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.842);
+  font-family: 'Lobster', cursive;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.about .profile-card-6 p {
+  left: 113px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.479);
+  font-size: 14px;
+  top: 50px;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.about .profile-card-6:hover img {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.about .profile-card-6:hover h3 {
+  padding-top: 10px;
+  color: black;
+}
+
+.about .profile-card-6:hover p {
+  top: 60px;
+  color: black;
+}
+
+/*service */
+.service {
+  width: 100%;
+}
+
+.service .profile-card-6 {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service .profile-card-6 .container-card {
+  margin-left: -12px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(transparent));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.527), transparent);
+}
+
+.service .profile-card-6 img {
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  width: 300px;
+  height: 300px;
+  margin-left: -12px;
+}
+
+.service .profile-card-6 h3 {
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.808);
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.service .profile-card-6 button {
+  margin: 0 auto;
+  position: absolute;
+  background: #C41515;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  top: 50px;
+  padding: 5px 25px;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+.service .profile-card-6:hover img {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.service .profile-card-6:hover h3 {
+  top: 20px;
+  padding-top: 10px;
+  color: black;
+}
+
+.service .profile-card-6:hover button {
+  top: 60px;
+}
+
+/*galary*/
+.galary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.galary .row {
+  background: #C41515;
+  min-height: 100vh;
+}
+
+.galary .row img:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/*feedback*/
+.feedback {
+  width: 100%;
+}
+
+.feedback .row {
+  background: url(../src/images/feedback.jpg);
+  background-size: cover;
+  min-height: 80vh;
+  margin: 0 auto;
+}
+
+.feedback .row .content {
+  background: rgba(0, 0, 0, 0.699);
+  margin: -1.5rem 0;
+}
+
+.feedback .row .content button {
+  position: absolute;
+  padding: 8px 30px;
+  margin-top: 28rem;
+  background: #C41515;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.feedback .row .content button:hover {
+  background: #B4ADAD;
+  color: #C41515;
+  font-weight: 600;
+}
+
+/*footer*/
+footer {
+  background: #363535;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .form button {
+  background: #C41515;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+footer .form ::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+footer .form :-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+footer .form ::-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+footer .form ::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+footer .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=App.css.map */
